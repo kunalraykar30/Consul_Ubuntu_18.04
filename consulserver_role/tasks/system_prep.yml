@@ -1,0 +1,6 @@
+---
+# Make system ready before installation of the Consul
+
+ - name: Install Unzip
+   apt: name=unzip state=latest
+
