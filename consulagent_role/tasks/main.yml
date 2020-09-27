@@ -1,0 +1,5 @@
+---
+# Main Tasks file for elk
+
+- import_tasks: system_prep.yml
+- import_tasks: install_consul.yml

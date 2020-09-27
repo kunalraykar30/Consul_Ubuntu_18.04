@@ -1,5 +1,7 @@
 {
-    "node_name": "Consulserver",
+    "node_name": "example",
+    "datacenter": "{{ consul_dc }}",
+    "encrypt": "{{ encrypt_value }}",
     "addresses": {
         "http": "{{ ansible_facts['all_ipv4_addresses'] | last }} 127.0.0.1"
     },
